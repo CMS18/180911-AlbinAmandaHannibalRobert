@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 namespace _180911_AlbinAmandaHannibalRobert {
     class Program {
         static void Main(string[] args) {
+
+            Formating.Format();
+
             //First ask the questions
             Amanda.Animal();
             Albin.AskQuestions();

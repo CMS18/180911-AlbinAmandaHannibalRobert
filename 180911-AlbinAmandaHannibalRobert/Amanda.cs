@@ -8,10 +8,25 @@ namespace _180911_AlbinAmandaHannibalRobert
 {
     class Amanda
     {
+        public static string animal;
+        public static string name;
+        public static string mode;
         public static void Animal ()
         {
             Console.Write("Skriv ett djur: ");
-            string animal = Console.ReadLine();
+            animal = Console.ReadLine();
+
+
+            Console.Write("Skriv ett namn:");
+            name = Console.ReadLine();
+
+            Console.Write("Vilket humör är du på: ");
+            mode = Console.ReadLine();
+        }
+        public static void AnimalStory ()
+        {
+            Console.WriteLine("En {0} som heter {1} och är väldigt {2} idag.", animal, name, mode);
         }
     }
+
 }

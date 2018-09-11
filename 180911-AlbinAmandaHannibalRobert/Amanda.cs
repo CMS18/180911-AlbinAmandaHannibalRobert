@@ -20,7 +20,7 @@ namespace _180911_AlbinAmandaHannibalRobert
             Console.Write("Skriv ett namn:");
             name = Console.ReadLine();
 
-            Console.Write("Vilket humör är du på");
+            Console.Write("Vilket humör är du på: ");
             mode = Console.ReadLine();
         }
         public static void AnimalStory ()

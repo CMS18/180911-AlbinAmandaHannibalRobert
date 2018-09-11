@@ -8,8 +8,8 @@ namespace _180911_AlbinAmandaHannibalRobert
 {
     class HannibalF
     {
-        static string item;
-        static string färg;
+        static string item = "";
+        static string färg = "";
 
 
         public static void MatainStory()
@@ -18,9 +18,9 @@ namespace _180911_AlbinAmandaHannibalRobert
 
 
             Console.WriteLine("Välj ett vapen?");
-            string item = Console.ReadLine();
+            item = Console.ReadLine();
             Console.WriteLine($"Vilken färg har { item }");
-            string färg = Console.ReadLine();
+            färg = Console.ReadLine();
 
 
         }
@@ -28,6 +28,7 @@ namespace _180911_AlbinAmandaHannibalRobert
         public static void SkrivStory()
         {
             Console.WriteLine($"Alright!! Nu så är det dags att använda din { färg } { item } och rädda { Albin.inputResmal }");
+
 
         }
 

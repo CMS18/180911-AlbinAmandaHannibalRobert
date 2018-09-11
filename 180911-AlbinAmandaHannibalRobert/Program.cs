@@ -8,6 +8,7 @@ namespace _180911_AlbinAmandaHannibalRobert {
     class Program {
         static void Main(string[] args) {
             Amanda.Animal();
+            Amanda.AnimalStory();
             Console.WriteLine("Nämn en plats: ");
             string inputResmal = Console.ReadLine();
             Console.WriteLine("Nämn en sång med lite jävlar anamma i: ");

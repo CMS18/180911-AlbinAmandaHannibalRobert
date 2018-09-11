@@ -8,17 +8,28 @@ namespace _180911_AlbinAmandaHannibalRobert
 {
     class HannibalF
     {
-        public static void Vapen()
+        static string item;
+        static string färg;
+
+
+        public static void MatainStory()
 
         {
 
 
-        Console.WriteLine("Välj ett vapen?");
-        string item = Console.ReadLine();
-        Console.WriteLine($"Du har valt { item }, är du redo?");
+            Console.WriteLine("Välj ett vapen?");
+            string item = Console.ReadLine();
+            Console.WriteLine($"Vilken färg har { item }");
+            string färg = Console.ReadLine();
 
 
-            }
+        }
+
+        public static void SkrivStory()
+        {
+            Console.WriteLine($"Alright!! Nu så är det dags att använda din { färg } { item } och rädda { Albin.inputResmal }");
+
+        }
 
     }
 }

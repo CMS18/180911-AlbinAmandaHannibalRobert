@@ -16,13 +16,13 @@ namespace _180911_AlbinAmandaHannibalRobert {
             HannibalF.Vapen();
             Robert.bil();
             Amanda.AnimalStory();
-            Console.WriteLine("Nämn en plats: ");
-            string inputResmal = Console.ReadLine();
-            Console.WriteLine("Nämn en sång med lite jävlar anamma i: ");
-            string inputSong = Console.ReadLine();
+
 
             //Then print the stories
             Albin.PrintStory();
+            Albin.Kaos();
+            HannibalF.MatainStory();
+            HannibalF.SkrivStory();
         }
     }
 }

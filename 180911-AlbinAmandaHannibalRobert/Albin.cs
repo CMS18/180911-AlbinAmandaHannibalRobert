@@ -21,7 +21,7 @@ namespace _180911_AlbinAmandaHannibalRobert {
 
             Console.WriteLine($"Nu bär det iväg till { inputResmal }!" +
                     $" När du anländer pumpar {inputSong} i högtalarna. " +
-                    $"Fuck vad skönt med lite semester.");
+                    $"Fuck vad skönt med lite semester, du är helt { HannibalF.farg } du känner dig som ett { Amanda.animal }.");
         }
     }
 }

@@ -9,7 +9,8 @@ namespace _180911_AlbinAmandaHannibalRobert {
         static void Main(string[] args) {
             Amanda.Animal();
             Albin.Kaos();
-            HannibalF.Vapen();
+            HannibalF.MatainStory();
+            HannibalF.SkrivStory();
         }
     }
 }

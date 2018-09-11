@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _180911_AlbinAmandaHannibalRobert {
-    class Program {
-        static void Main(string[] args) {
+namespace _180911_AlbinAmandaHannibalRobert
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
 
             Formating.Format();
 
@@ -16,15 +19,15 @@ namespace _180911_AlbinAmandaHannibalRobert {
             HannibalF.Vapen();
             Robert.Bil();
             Robert.BilStory();
+            HannibalF.MatainStory();
             Robert.bil();
             Amanda.AnimalStory();
 
 
             //Then print the stories
             Albin.PrintStory();
-            Albin.Kaos();
-            HannibalF.MatainStory();
             HannibalF.SkrivStory();
+            Console.ReadLine();
         }
     }
 }

@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace _180911_AlbinAmandaHannibalRobert {
     class Program {
         static void Main(string[] args) {
+            Amanda.Animal();
+            Albin.Kaos();
         }
     }
 }

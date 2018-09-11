@@ -10,6 +10,7 @@ namespace _180911_AlbinAmandaHannibalRobert {
             Amanda.Animal();
             Albin.Kaos();
             HannibalF.Vapen();
+            Robert.bil();
         }
     }
 }

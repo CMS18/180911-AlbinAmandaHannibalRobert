@@ -16,6 +16,9 @@ namespace _180911_AlbinAmandaHannibalRobert {
             Console.WriteLine($"Nu bär det iväg till { inputResmal }!" +
                 $" När du anländer pumpar {inputSong} i högtalarna. " +
                 $"Fuck vad skönt med lite semester.");
+
+            HannibalF.Vapen(); 
+        
         }
     }
 }

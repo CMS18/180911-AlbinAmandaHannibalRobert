@@ -4,17 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _180911_AlbinAmandaHannibalRobert
-{
-    class HannibalF
-    {
-        static string item = "";
-        static string färg = "";
+namespace _180911_AlbinAmandaHannibalRobert {
+    class HannibalF {
+        public static string item = "";
+        public static string färg = "";
 
 
-        public static void MatainStory()
-
-        {
+        public static void MatainStory() {
 
 
             Console.WriteLine("Välj ett vapen?");
@@ -25,8 +21,7 @@ namespace _180911_AlbinAmandaHannibalRobert
 
         }
 
-        public static void SkrivStory()
-        {
+        public static void SkrivStory() {
             Console.WriteLine($"Alright!! Nu så är det dags att använda din { färg } { item } och rädda { Albin.inputResmal }");
 
 

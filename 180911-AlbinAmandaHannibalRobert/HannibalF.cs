@@ -15,7 +15,9 @@ namespace _180911_AlbinAmandaHannibalRobert
 
         Console.WriteLine("Välj ett vapen?");
         string item = Console.ReadLine();
-        Console.WriteLine("Du har valt " + item);
+        Console.WriteLine($"Du har valt { item }, är du redo?");
+
+
             }
 
     }

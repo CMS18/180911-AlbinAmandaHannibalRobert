@@ -7,9 +7,13 @@ using System.Threading.Tasks;
 namespace _180911_AlbinAmandaHannibalRobert {
     class Program {
         static void Main(string[] args) {
+            //First ask the questions
             Amanda.Animal();
-            Albin.Kaos();
+            Albin.AskQuestions();
             HannibalF.Vapen();
+
+            //Then print the stories
+            Albin.PrintStory();
         }
     }
 }

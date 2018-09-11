@@ -11,6 +11,7 @@ namespace _180911_AlbinAmandaHannibalRobert {
             Amanda.Animal();
             Albin.AskQuestions();
             HannibalF.Vapen();
+            Robert.bil();
 
             //Then print the stories
             Albin.PrintStory();

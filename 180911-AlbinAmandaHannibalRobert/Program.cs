@@ -16,11 +16,11 @@ namespace _180911_AlbinAmandaHannibalRobert
             //First ask the questions
             Amanda.Animal();
             Albin.AskQuestions();
-            HannibalF.Vapen();
+            
             Robert.Bil();
             Robert.BilStory();
             HannibalF.MatainStory();
-            Robert.bil();
+            
             Amanda.AnimalStory();
 
 

@@ -8,7 +8,9 @@ namespace _180911_AlbinAmandaHannibalRobert
 {
     class Robert
     {
-        public static string bil;
+        public static string bil = "";
+
+
         public static void Bil()
 
             {
@@ -23,7 +25,7 @@ namespace _180911_AlbinAmandaHannibalRobert
 
             {
 
-            Console.WriteLine($"Du är redo för ditt första uppdrag med din {0}");
+            Console.WriteLine($"Du är redo för ditt första uppdrag med din {bil}");
             
             }
 
